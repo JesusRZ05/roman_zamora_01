@@ -1,0 +1,26 @@
+.cabecera :nth-child(1)
+    {
+        width: 300px;
+    }
+.cabecera
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 60px;
+    }
+.menu
+    {
+        text-align: right;
+    }
+.menu ul
+    {
+        gap: 20px;
+        display: flex;
+    }
+menu ul li
+    {
+        display: inline-block;
+    }
